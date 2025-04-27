@@ -1,0 +1,1599 @@
+2025-04-27 07:46:49,444 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:46:49,444 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:46:49,449 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:46:51,518 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:46:51,519 - TrackerManager - INFO - Successfully registered peer with ID: 7a26f6a5-7c60-4eaf-8e6e-451dd85505af
+2025-04-27 07:46:51,519 - PeerClient - INFO - Peer registered successfully with ID: 7a26f6a5-7c60-4eaf-8e6e-451dd85505af
+2025-04-27 07:46:51,525 - FileManager - INFO - Listing available files
+2025-04-27 07:46:51,525 - FileManager - INFO - Listing shared files
+2025-04-27 07:46:51,528 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:46:51,530 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:46:51,531 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:46:51,532 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:46:53,566 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:46:53,567 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:46:53,571 - FileManager - INFO - Listing available files
+2025-04-27 07:46:53,572 - FileManager - INFO - Listing shared files
+2025-04-27 07:46:53,575 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:46:56,531 - FileManager - INFO - Listing available files
+2025-04-27 07:46:56,532 - FileManager - INFO - Listing shared files
+2025-04-27 07:46:56,535 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:46:56,538 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:46:56,538 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:46:56,540 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:46:58,579 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:46:58,579 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:46:58,584 - FileManager - INFO - Listing available files
+2025-04-27 07:46:58,584 - FileManager - INFO - Listing shared files
+2025-04-27 07:46:58,587 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:01,536 - FileManager - INFO - Listing available files
+2025-04-27 07:47:01,537 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:01,540 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:01,541 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:01,542 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:01,543 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:03,585 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:03,586 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:03,590 - FileManager - INFO - Listing available files
+2025-04-27 07:47:03,591 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:03,594 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:06,538 - FileManager - INFO - Listing available files
+2025-04-27 07:47:06,539 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:06,542 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:06,543 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:06,544 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:06,545 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:08,587 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:08,588 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:08,592 - FileManager - INFO - Listing available files
+2025-04-27 07:47:08,592 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:08,596 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:11,537 - FileManager - INFO - Listing available files
+2025-04-27 07:47:11,537 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:11,540 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:11,542 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:11,542 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:11,544 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:13,584 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:13,585 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:13,589 - FileManager - INFO - Listing available files
+2025-04-27 07:47:13,590 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:13,593 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:16,530 - FileManager - INFO - Listing available files
+2025-04-27 07:47:16,531 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:16,533 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:16,535 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:16,535 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:16,537 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:18,569 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:18,569 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:18,573 - FileManager - INFO - Listing available files
+2025-04-27 07:47:18,574 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:18,577 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:21,531 - FileManager - INFO - Listing available files
+2025-04-27 07:47:21,531 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:21,534 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:21,536 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:21,536 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:21,538 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:23,574 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:23,575 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:23,585 - FileManager - INFO - Listing available files
+2025-04-27 07:47:23,585 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:23,588 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:26,533 - FileManager - INFO - Listing available files
+2025-04-27 07:47:26,534 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:26,537 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:26,538 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:26,539 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:26,540 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:28,574 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:28,575 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:28,579 - FileManager - INFO - Listing available files
+2025-04-27 07:47:28,580 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:28,583 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:31,529 - FileManager - INFO - Listing available files
+2025-04-27 07:47:31,529 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:31,533 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:31,535 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:31,535 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:31,536 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:33,585 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:33,586 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:33,590 - FileManager - INFO - Listing available files
+2025-04-27 07:47:33,591 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:33,594 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:36,538 - FileManager - INFO - Listing available files
+2025-04-27 07:47:36,538 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:36,541 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:36,543 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:36,543 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:36,544 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:38,595 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:38,596 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:38,602 - FileManager - INFO - Listing available files
+2025-04-27 07:47:38,602 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:38,605 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:41,531 - FileManager - INFO - Listing available files
+2025-04-27 07:47:41,532 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:41,535 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:41,536 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:41,537 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:41,538 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:43,609 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:43,609 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:43,611 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:43,611 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:43,613 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:45,661 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1286
+2025-04-27 07:47:45,662 - TrackerManager - INFO - Successfully retrieved 9 peers
+2025-04-27 07:47:45,666 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:47:45,667 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:47:45,668 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:47,720 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:47:47,721 - TrackerManager - INFO - Successfully registered peer with ID: 201594aa-fe60-454c-8bb3-56260a8491f5
+2025-04-27 07:47:47,721 - PeerClient - INFO - Peer registered successfully with ID: 201594aa-fe60-454c-8bb3-56260a8491f5
+2025-04-27 07:47:47,723 - FileManager - INFO - Listing available files
+2025-04-27 07:47:47,723 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:47,727 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:47,731 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:47,731 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:47,734 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:49,780 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:47:49,780 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:47:49,782 - FileManager - INFO - Listing available files
+2025-04-27 07:47:49,782 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:49,786 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:49,788 - FileManager - INFO - Listing available files
+2025-04-27 07:47:49,789 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:49,792 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:52,729 - FileManager - INFO - Listing available files
+2025-04-27 07:47:52,730 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:52,733 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:52,735 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:52,735 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:52,737 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:54,780 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:47:54,781 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:47:54,787 - FileManager - INFO - Listing available files
+2025-04-27 07:47:54,787 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:54,790 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:57,739 - FileManager - INFO - Listing available files
+2025-04-27 07:47:57,739 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:57,742 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:47:57,744 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:47:57,744 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:47:57,745 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:47:59,777 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:47:59,778 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:47:59,801 - FileManager - INFO - Listing available files
+2025-04-27 07:47:59,801 - FileManager - INFO - Listing shared files
+2025-04-27 07:47:59,804 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:02,790 - FileManager - INFO - Listing available files
+2025-04-27 07:48:02,790 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:02,794 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:02,796 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:02,797 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:02,798 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:04,850 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:48:04,850 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:48:04,855 - FileManager - INFO - Listing available files
+2025-04-27 07:48:04,855 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:04,858 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:07,738 - FileManager - INFO - Listing available files
+2025-04-27 07:48:07,738 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:07,742 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:07,743 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:07,744 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:07,745 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:09,794 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:48:09,795 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:48:09,801 - FileManager - INFO - Listing available files
+2025-04-27 07:48:09,801 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:09,804 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:12,735 - FileManager - INFO - Listing available files
+2025-04-27 07:48:12,735 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:12,738 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:12,740 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:12,740 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:12,742 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:14,783 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:48:14,784 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:48:14,789 - FileManager - INFO - Listing available files
+2025-04-27 07:48:14,789 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:14,793 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:17,732 - FileManager - INFO - Listing available files
+2025-04-27 07:48:17,732 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:17,735 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:17,737 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:17,737 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:17,738 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:19,775 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:48:19,776 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:48:19,782 - FileManager - INFO - Listing available files
+2025-04-27 07:48:19,783 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:19,786 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:28,446 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:28,447 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:28,452 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:30,686 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1426
+2025-04-27 07:48:30,687 - TrackerManager - INFO - Successfully retrieved 10 peers
+2025-04-27 07:48:30,692 - FileManager - INFO - Listing available files
+2025-04-27 07:48:30,693 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:30,696 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:36,355 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:48:36,356 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:48:36,357 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:38,392 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:48:38,393 - TrackerManager - INFO - Successfully registered peer with ID: 50c647bc-10a9-474e-8e73-e18c7b0a0efd
+2025-04-27 07:48:38,393 - PeerClient - INFO - Peer registered successfully with ID: 50c647bc-10a9-474e-8e73-e18c7b0a0efd
+2025-04-27 07:48:38,398 - FileManager - INFO - Listing available files
+2025-04-27 07:48:38,399 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:38,402 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:38,405 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:38,406 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:38,407 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:40,446 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:48:40,447 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:48:40,505 - FileManager - INFO - Listing available files
+2025-04-27 07:48:40,506 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:40,509 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:43,407 - FileManager - INFO - Listing available files
+2025-04-27 07:48:43,408 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:43,411 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:43,413 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:43,414 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:43,415 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:45,447 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:48:45,447 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:48:45,452 - FileManager - INFO - Listing available files
+2025-04-27 07:48:45,452 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:45,455 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:48,399 - FileManager - INFO - Listing available files
+2025-04-27 07:48:48,399 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:48,402 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:48,404 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:48,404 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:48,405 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:50,436 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:48:50,437 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:48:50,443 - FileManager - INFO - Listing available files
+2025-04-27 07:48:50,443 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:50,446 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:53,407 - FileManager - INFO - Listing available files
+2025-04-27 07:48:53,407 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:53,410 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:53,412 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:53,413 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:53,414 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:48:55,457 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:48:55,457 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:48:55,462 - FileManager - INFO - Listing available files
+2025-04-27 07:48:55,462 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:55,465 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:58,400 - FileManager - INFO - Listing available files
+2025-04-27 07:48:58,401 - FileManager - INFO - Listing shared files
+2025-04-27 07:48:58,403 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:48:58,405 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:48:58,405 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:48:58,407 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:00,447 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:00,448 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:00,453 - FileManager - INFO - Listing available files
+2025-04-27 07:49:00,454 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:00,457 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:03,399 - FileManager - INFO - Listing available files
+2025-04-27 07:49:03,400 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:03,403 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:03,404 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:03,404 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:03,406 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:05,468 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:05,469 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:05,473 - FileManager - INFO - Listing available files
+2025-04-27 07:49:05,474 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:05,477 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:08,408 - FileManager - INFO - Listing available files
+2025-04-27 07:49:08,410 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:08,413 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:08,416 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:08,416 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:08,417 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:10,453 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:10,453 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:10,468 - FileManager - INFO - Listing available files
+2025-04-27 07:49:10,469 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:10,472 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:13,412 - FileManager - INFO - Listing available files
+2025-04-27 07:49:13,412 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:13,416 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:13,418 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:13,418 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:13,419 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:15,443 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:15,443 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:15,450 - FileManager - INFO - Listing available files
+2025-04-27 07:49:15,450 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:15,453 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:18,406 - FileManager - INFO - Listing available files
+2025-04-27 07:49:18,407 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:18,409 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:18,411 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:18,411 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:18,413 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:20,468 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:20,468 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:20,507 - FileManager - INFO - Listing available files
+2025-04-27 07:49:20,508 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:20,511 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:23,403 - FileManager - INFO - Listing available files
+2025-04-27 07:49:23,404 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:23,406 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:23,408 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:23,408 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:23,410 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:25,436 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:25,437 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:25,441 - FileManager - INFO - Listing available files
+2025-04-27 07:49:25,441 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:25,444 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:29,804 - FileManager - INFO - Listing available files
+2025-04-27 07:49:29,805 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:29,808 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:29,809 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:29,809 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:29,815 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:31,851 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:31,851 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:49:31,856 - FileManager - INFO - Listing available files
+2025-04-27 07:49:31,856 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:31,859 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:33,399 - FileManager - INFO - Listing available files
+2025-04-27 07:49:33,400 - FileManager - INFO - Listing shared files
+2025-04-27 07:49:33,403 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:49:33,406 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:49:33,406 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:49:33,407 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:49:35,444 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:49:35,445 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:50:13,414 - FileManager - INFO - Listing available files
+2025-04-27 07:50:13,417 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:13,421 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:13,425 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:13,426 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:13,431 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:15,472 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:50:15,472 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:50:15,475 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:15,475 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:15,476 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:17,516 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1566
+2025-04-27 07:50:17,517 - TrackerManager - INFO - Successfully retrieved 11 peers
+2025-04-27 07:50:17,522 - FileManager - INFO - Listing available files
+2025-04-27 07:50:17,522 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:17,525 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:39,156 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:50:39,157 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:50:39,162 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:41,199 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:50:41,200 - TrackerManager - INFO - Successfully registered peer with ID: 55a48043-f55a-4afb-a52f-1e008900b3fe
+2025-04-27 07:50:41,201 - PeerClient - INFO - Peer registered successfully with ID: 55a48043-f55a-4afb-a52f-1e008900b3fe
+2025-04-27 07:50:41,215 - FileManager - INFO - Listing available files
+2025-04-27 07:50:41,215 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:41,219 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:41,221 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:41,221 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:41,222 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:43,265 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:50:43,266 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:50:43,271 - FileManager - INFO - Listing available files
+2025-04-27 07:50:43,272 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:43,275 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:46,208 - FileManager - INFO - Listing available files
+2025-04-27 07:50:46,209 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:46,211 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:46,213 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:46,214 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:46,215 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:48,246 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:50:48,247 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:50:48,249 - FileManager - INFO - Downloading file: CN LAB.docx
+2025-04-27 07:50:48,250 - FileManager - ERROR - Error downloading file: name 'is_file_locked' is not defined
+2025-04-27 07:50:48,257 - FileManager - INFO - Listing available files
+2025-04-27 07:50:48,258 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:48,261 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:51,227 - FileManager - INFO - Listing available files
+2025-04-27 07:50:51,227 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:51,230 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:51,232 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:51,232 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:51,234 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:53,267 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:50:53,268 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:50:53,275 - FileManager - INFO - Listing available files
+2025-04-27 07:50:53,275 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:53,278 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:56,220 - FileManager - INFO - Listing available files
+2025-04-27 07:50:56,220 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:56,223 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:50:56,225 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:50:56,225 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:50:56,227 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:50:58,267 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:50:58,268 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:50:58,272 - FileManager - INFO - Listing available files
+2025-04-27 07:50:58,272 - FileManager - INFO - Listing shared files
+2025-04-27 07:50:58,275 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:01,224 - FileManager - INFO - Listing available files
+2025-04-27 07:51:01,224 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:01,227 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:01,230 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:01,231 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:01,232 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:03,268 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:03,268 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:03,273 - FileManager - INFO - Listing available files
+2025-04-27 07:51:03,273 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:03,276 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:06,227 - FileManager - INFO - Listing available files
+2025-04-27 07:51:06,228 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:06,231 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:06,232 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:06,233 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:06,234 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:08,271 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:08,272 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:08,276 - FileManager - INFO - Listing available files
+2025-04-27 07:51:08,276 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:08,280 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:11,216 - FileManager - INFO - Listing available files
+2025-04-27 07:51:11,217 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:11,220 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:11,222 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:11,222 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:11,224 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:13,260 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:13,261 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:13,273 - FileManager - INFO - Listing available files
+2025-04-27 07:51:13,273 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:13,276 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:16,219 - FileManager - INFO - Listing available files
+2025-04-27 07:51:16,220 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:16,223 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:16,224 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:16,225 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:16,226 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:18,277 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:18,278 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:18,283 - FileManager - INFO - Listing available files
+2025-04-27 07:51:18,283 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:18,286 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:21,216 - FileManager - INFO - Listing available files
+2025-04-27 07:51:21,217 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:21,219 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:21,221 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:21,221 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:21,222 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:23,262 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:23,263 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:23,267 - FileManager - INFO - Listing available files
+2025-04-27 07:51:23,268 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:23,271 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:26,223 - FileManager - INFO - Listing available files
+2025-04-27 07:51:26,223 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:26,227 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:26,229 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:26,230 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:26,231 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:28,273 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:28,274 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:28,400 - FileManager - INFO - Listing available files
+2025-04-27 07:51:28,401 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:28,404 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:31,214 - FileManager - INFO - Listing available files
+2025-04-27 07:51:31,215 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:31,218 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:31,219 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:31,220 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:31,221 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:33,263 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:33,263 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:33,268 - FileManager - INFO - Listing available files
+2025-04-27 07:51:33,269 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:33,272 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:36,215 - FileManager - INFO - Listing available files
+2025-04-27 07:51:36,216 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:36,218 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:36,220 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:36,220 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:36,222 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:38,271 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:38,272 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:38,277 - FileManager - INFO - Listing available files
+2025-04-27 07:51:38,277 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:38,280 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:41,313 - FileManager - INFO - Listing available files
+2025-04-27 07:51:41,313 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:41,316 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:41,322 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:41,322 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:41,323 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:43,371 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:43,372 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:51:43,379 - FileManager - INFO - Listing available files
+2025-04-27 07:51:43,379 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:43,382 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:46,228 - FileManager - INFO - Listing available files
+2025-04-27 07:51:46,228 - FileManager - INFO - Listing shared files
+2025-04-27 07:51:46,231 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:51:46,233 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:51:46,233 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:51:46,234 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:51:48,570 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:51:48,578 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:52:18,384 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:18,384 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:18,389 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:20,453 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1706
+2025-04-27 07:52:20,454 - TrackerManager - INFO - Successfully retrieved 12 peers
+2025-04-27 07:52:20,458 - FileManager - INFO - Listing available files
+2025-04-27 07:52:20,459 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:20,462 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:23,387 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:52:23,388 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:52:23,389 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:25,435 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:52:25,436 - TrackerManager - INFO - Successfully registered peer with ID: b38ed625-49a0-45f1-a9a0-25ce61b16043
+2025-04-27 07:52:25,436 - PeerClient - INFO - Peer registered successfully with ID: b38ed625-49a0-45f1-a9a0-25ce61b16043
+2025-04-27 07:52:25,442 - FileManager - INFO - Listing available files
+2025-04-27 07:52:25,442 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:25,446 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:25,447 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:25,448 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:25,449 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:27,492 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:27,492 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:27,497 - FileManager - INFO - Listing available files
+2025-04-27 07:52:27,497 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:27,500 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:30,264 - FileManager - INFO - Downloading file: CN LAB.docx
+2025-04-27 07:52:30,265 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\CN LAB.docx
+2025-04-27 07:52:30,265 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\CN LAB.docx
+2025-04-27 07:52:30,266 - FileManager - DEBUG - File size: 311793 bytes
+2025-04-27 07:52:30,305 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:30,305 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:30,307 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:32,350 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:32,351 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:32,354 - FileManager - INFO - Listing available files
+2025-04-27 07:52:32,355 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:32,358 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:32,359 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:32,360 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:32,361 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:34,393 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:34,394 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:34,396 - FileManager - INFO - Listing available files
+2025-04-27 07:52:34,396 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:34,399 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:34,403 - FileManager - INFO - Listing available files
+2025-04-27 07:52:34,404 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:34,407 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:35,457 - FileManager - INFO - Listing available files
+2025-04-27 07:52:35,457 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:35,460 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:35,461 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:35,462 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:35,463 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:37,497 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:37,498 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:37,504 - FileManager - INFO - Listing available files
+2025-04-27 07:52:37,505 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:37,508 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:39,704 - FileManager - INFO - Downloading file: LAB#10.pkt
+2025-04-27 07:52:39,705 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:52:39,705 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:52:39,706 - FileManager - WARNING - File is currently in use: LAB#10.pkt
+2025-04-27 07:52:39,706 - FileManager - ERROR - Error downloading file: 423: File is currently in use
+2025-04-27 07:52:40,449 - FileManager - INFO - Listing available files
+2025-04-27 07:52:40,449 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:40,452 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:40,454 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:40,454 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:40,455 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:42,506 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:42,506 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:42,511 - FileManager - INFO - Listing available files
+2025-04-27 07:52:42,511 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:42,515 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:45,444 - FileManager - INFO - Listing available files
+2025-04-27 07:52:45,445 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:45,448 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:45,450 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:45,450 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:45,451 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:47,504 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:47,505 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:47,513 - FileManager - INFO - Listing available files
+2025-04-27 07:52:47,513 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:47,517 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:50,443 - FileManager - INFO - Listing available files
+2025-04-27 07:52:50,443 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:50,446 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:50,448 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:50,448 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:50,450 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:52,483 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:52,484 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:52,488 - FileManager - INFO - Listing available files
+2025-04-27 07:52:52,489 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:52,492 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:55,445 - FileManager - INFO - Listing available files
+2025-04-27 07:52:55,445 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:55,448 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:52:55,450 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:52:55,450 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:52:55,451 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:52:57,497 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:52:57,497 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:52:57,501 - FileManager - INFO - Listing available files
+2025-04-27 07:52:57,502 - FileManager - INFO - Listing shared files
+2025-04-27 07:52:57,505 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:00,444 - FileManager - INFO - Listing available files
+2025-04-27 07:53:00,445 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:00,448 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:00,450 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:00,450 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:00,451 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:02,495 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:02,496 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:02,503 - FileManager - INFO - Listing available files
+2025-04-27 07:53:02,503 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:02,506 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:05,456 - FileManager - INFO - Listing available files
+2025-04-27 07:53:05,457 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:05,460 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:05,461 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:05,462 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:05,463 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:07,514 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:07,514 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:07,519 - FileManager - INFO - Listing available files
+2025-04-27 07:53:07,519 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:07,523 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:09,443 - FileManager - INFO - Downloading file: LAB#10.pkt
+2025-04-27 07:53:09,443 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:53:09,444 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:53:09,445 - FileManager - WARNING - File is currently in use: LAB#10.pkt
+2025-04-27 07:53:09,445 - FileManager - ERROR - Error downloading file: 423: File is currently in use
+2025-04-27 07:53:10,456 - FileManager - INFO - Listing available files
+2025-04-27 07:53:10,456 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:10,462 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:10,463 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:10,464 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:10,465 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:12,499 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:12,500 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:12,505 - FileManager - INFO - Listing available files
+2025-04-27 07:53:12,505 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:12,508 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:15,453 - FileManager - INFO - Listing available files
+2025-04-27 07:53:15,453 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:15,456 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:15,458 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:15,459 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:15,460 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:17,499 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:17,499 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:17,504 - FileManager - INFO - Listing available files
+2025-04-27 07:53:17,504 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:17,507 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:20,447 - FileManager - INFO - Listing available files
+2025-04-27 07:53:20,447 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:20,450 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:20,452 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:20,452 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:20,453 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:22,493 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:22,493 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:22,497 - FileManager - INFO - Listing available files
+2025-04-27 07:53:22,498 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:22,501 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:25,447 - FileManager - INFO - Listing available files
+2025-04-27 07:53:25,447 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:25,450 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:25,452 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:25,452 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:25,453 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:27,518 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:27,519 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:27,523 - FileManager - INFO - Listing available files
+2025-04-27 07:53:27,523 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:27,526 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:30,444 - FileManager - INFO - Listing available files
+2025-04-27 07:53:30,444 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:30,447 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:30,449 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:30,449 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:30,451 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:32,492 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:32,493 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:32,497 - FileManager - INFO - Listing available files
+2025-04-27 07:53:32,497 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:32,500 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:35,448 - FileManager - INFO - Listing available files
+2025-04-27 07:53:35,448 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:35,451 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:35,453 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:35,453 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:35,455 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:37,500 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:37,501 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:37,508 - FileManager - INFO - Listing available files
+2025-04-27 07:53:37,509 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:37,512 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:37,852 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:37,852 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:37,853 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:39,887 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1846
+2025-04-27 07:53:39,887 - TrackerManager - INFO - Successfully retrieved 13 peers
+2025-04-27 07:53:39,892 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:53:39,892 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:53:39,894 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:41,940 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:53:41,940 - TrackerManager - INFO - Successfully registered peer with ID: af7d3e10-06e0-44c3-9ed5-0e4e73ea2d7c
+2025-04-27 07:53:41,941 - PeerClient - INFO - Peer registered successfully with ID: af7d3e10-06e0-44c3-9ed5-0e4e73ea2d7c
+2025-04-27 07:53:41,943 - FileManager - INFO - Listing available files
+2025-04-27 07:53:41,943 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:41,947 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:41,951 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:41,951 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:41,952 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:43,986 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:53:43,986 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:53:43,989 - FileManager - INFO - Listing available files
+2025-04-27 07:53:43,989 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:43,992 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:43,995 - FileManager - INFO - Listing available files
+2025-04-27 07:53:43,995 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:43,999 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:46,957 - FileManager - INFO - Listing available files
+2025-04-27 07:53:46,957 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:46,960 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:46,962 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:46,962 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:46,963 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:49,002 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:53:49,002 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:53:49,007 - FileManager - INFO - Listing available files
+2025-04-27 07:53:49,007 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:49,010 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:51,955 - FileManager - INFO - Listing available files
+2025-04-27 07:53:51,955 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:51,958 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:51,960 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:51,960 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:51,961 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:54,003 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:53:54,004 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:53:54,009 - FileManager - INFO - Listing available files
+2025-04-27 07:53:54,009 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:54,012 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:56,963 - FileManager - INFO - Listing available files
+2025-04-27 07:53:56,965 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:56,970 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:53:56,976 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:53:56,976 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:53:56,977 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:53:59,102 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:53:59,102 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:53:59,192 - FileManager - INFO - Listing available files
+2025-04-27 07:53:59,192 - FileManager - INFO - Listing shared files
+2025-04-27 07:53:59,195 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:01,948 - FileManager - INFO - Listing available files
+2025-04-27 07:54:01,949 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:01,951 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:01,953 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:01,953 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:01,955 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:04,038 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:04,038 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:04,047 - FileManager - INFO - Listing available files
+2025-04-27 07:54:04,047 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:04,051 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:06,960 - FileManager - INFO - Listing available files
+2025-04-27 07:54:06,960 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:06,963 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:06,966 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:06,966 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:06,967 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:08,998 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:08,998 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:09,004 - FileManager - INFO - Listing available files
+2025-04-27 07:54:09,004 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:09,007 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:11,959 - FileManager - INFO - Listing available files
+2025-04-27 07:54:11,960 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:11,962 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:11,964 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:11,964 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:11,966 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:14,007 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:14,008 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:14,012 - FileManager - INFO - Listing available files
+2025-04-27 07:54:14,013 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:14,016 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:16,962 - FileManager - INFO - Listing available files
+2025-04-27 07:54:16,962 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:16,965 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:16,967 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:16,967 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:16,968 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:19,019 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:19,020 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:19,024 - FileManager - INFO - Listing available files
+2025-04-27 07:54:19,025 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:19,028 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:21,952 - FileManager - INFO - Listing available files
+2025-04-27 07:54:21,952 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:21,955 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:21,958 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:21,958 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:21,959 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:24,004 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:24,005 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:24,010 - FileManager - INFO - Listing available files
+2025-04-27 07:54:24,010 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:24,015 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:26,957 - FileManager - INFO - Listing available files
+2025-04-27 07:54:26,958 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:26,961 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:26,963 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:26,964 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:26,965 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:29,021 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:29,021 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:29,026 - FileManager - INFO - Listing available files
+2025-04-27 07:54:29,026 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:29,029 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:31,948 - FileManager - INFO - Listing available files
+2025-04-27 07:54:31,949 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:31,952 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:31,954 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:31,954 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:31,955 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:34,001 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:34,002 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:34,103 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:34,103 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:34,105 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:36,168 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 1986
+2025-04-27 07:54:36,169 - TrackerManager - INFO - Successfully retrieved 14 peers
+2025-04-27 07:54:36,173 - PeerClient - INFO - Registering peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:54:36,173 - TrackerManager - INFO - Attempting to register peer with IP: 127.0.0.1, Port: 3500
+2025-04-27 07:54:36,174 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:38,219 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /register_peer HTTP/1.1" 200 91
+2025-04-27 07:54:38,219 - TrackerManager - INFO - Successfully registered peer with ID: e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:54:38,220 - PeerClient - INFO - Peer registered successfully with ID: e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:54:38,221 - FileManager - INFO - Listing available files
+2025-04-27 07:54:38,222 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:38,226 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:38,229 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:38,229 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:38,231 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:40,268 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:54:40,269 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:54:40,271 - FileManager - INFO - Listing available files
+2025-04-27 07:54:40,272 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:40,274 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:40,285 - FileManager - INFO - Listing available files
+2025-04-27 07:54:40,285 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:40,288 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:43,243 - FileManager - INFO - Listing available files
+2025-04-27 07:54:43,243 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:43,247 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:43,249 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:43,249 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:43,250 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:45,290 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:54:45,291 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:54:45,296 - FileManager - INFO - Listing available files
+2025-04-27 07:54:45,296 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:45,300 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:48,231 - FileManager - INFO - Listing available files
+2025-04-27 07:54:48,232 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:48,235 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:48,236 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:48,237 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:48,238 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:50,288 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:54:50,288 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:54:50,293 - FileManager - INFO - Listing available files
+2025-04-27 07:54:50,293 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:50,296 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:53,239 - FileManager - INFO - Listing available files
+2025-04-27 07:54:53,239 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:53,242 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:53,244 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:53,244 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:53,245 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:54:55,283 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:54:55,284 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:54:55,290 - FileManager - INFO - Listing available files
+2025-04-27 07:54:55,290 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:55,293 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:58,229 - FileManager - INFO - Listing available files
+2025-04-27 07:54:58,229 - FileManager - INFO - Listing shared files
+2025-04-27 07:54:58,233 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:54:58,234 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:54:58,235 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:54:58,236 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:00,268 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:55:00,269 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:00,276 - FileManager - INFO - Listing available files
+2025-04-27 07:55:00,276 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:00,279 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:55:03,235 - FileManager - INFO - Listing available files
+2025-04-27 07:55:03,235 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:03,238 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:55:03,241 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:03,242 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:03,243 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:05,283 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:55:05,283 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:05,300 - FileManager - INFO - Listing available files
+2025-04-27 07:55:05,300 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:05,303 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:55:08,237 - FileManager - INFO - Listing available files
+2025-04-27 07:55:08,238 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:08,241 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:55:08,242 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:08,242 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:08,244 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:10,291 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:55:10,291 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:10,296 - FileManager - INFO - Listing available files
+2025-04-27 07:55:10,296 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:10,299 - FileManager - INFO - Found 2 shared files
+2025-04-27 07:55:12,154 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-04-27 07:55:12,154 - python_multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-04-27 07:55:12,155 - python_multipart.multipart - DEBUG - Calling on_header_value with data[63:110]
+2025-04-27 07:55:12,155 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-04-27 07:55:12,155 - python_multipart.multipart - DEBUG - Calling on_header_field with data[112:124]
+2025-04-27 07:55:12,156 - python_multipart.multipart - DEBUG - Calling on_header_value with data[126:197]
+2025-04-27 07:55:12,157 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-04-27 07:55:12,158 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-04-27 07:55:12,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[201:16384]
+2025-04-27 07:55:12,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,165 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,168 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,170 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,170 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,171 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,172 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,173 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:32768]
+2025-04-27 07:55:12,174 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,175 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:16384]
+2025-04-27 07:55:12,175 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:4771]
+2025-04-27 07:55:12,176 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-04-27 07:55:12,176 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-27 07:55:12,176 - FileManager - INFO - Uploading file: 22k5031.docx
+2025-04-27 07:55:12,195 - FileManager - DEBUG - Upload progress: 3.8%
+2025-04-27 07:55:12,196 - FileManager - DEBUG - Upload progress: 7.5%
+2025-04-27 07:55:12,196 - FileManager - DEBUG - Upload progress: 11.3%
+2025-04-27 07:55:12,196 - FileManager - DEBUG - Upload progress: 15.1%
+2025-04-27 07:55:12,197 - FileManager - DEBUG - Upload progress: 18.8%
+2025-04-27 07:55:12,197 - FileManager - DEBUG - Upload progress: 22.6%
+2025-04-27 07:55:12,197 - FileManager - DEBUG - Upload progress: 26.4%
+2025-04-27 07:55:12,198 - FileManager - DEBUG - Upload progress: 30.1%
+2025-04-27 07:55:12,198 - FileManager - DEBUG - Upload progress: 33.9%
+2025-04-27 07:55:12,198 - FileManager - DEBUG - Upload progress: 37.7%
+2025-04-27 07:55:12,199 - FileManager - DEBUG - Upload progress: 41.4%
+2025-04-27 07:55:12,199 - FileManager - DEBUG - Upload progress: 45.2%
+2025-04-27 07:55:12,199 - FileManager - DEBUG - Upload progress: 48.9%
+2025-04-27 07:55:12,200 - FileManager - DEBUG - Upload progress: 52.7%
+2025-04-27 07:55:12,200 - FileManager - DEBUG - Upload progress: 56.5%
+2025-04-27 07:55:12,200 - FileManager - DEBUG - Upload progress: 60.2%
+2025-04-27 07:55:12,201 - FileManager - DEBUG - Upload progress: 64.0%
+2025-04-27 07:55:12,201 - FileManager - DEBUG - Upload progress: 67.8%
+2025-04-27 07:55:12,201 - FileManager - DEBUG - Upload progress: 71.5%
+2025-04-27 07:55:12,202 - FileManager - DEBUG - Upload progress: 75.3%
+2025-04-27 07:55:12,202 - FileManager - DEBUG - Upload progress: 79.1%
+2025-04-27 07:55:12,202 - FileManager - DEBUG - Upload progress: 82.8%
+2025-04-27 07:55:12,203 - FileManager - DEBUG - Upload progress: 86.6%
+2025-04-27 07:55:12,203 - FileManager - DEBUG - Upload progress: 90.4%
+2025-04-27 07:55:12,203 - FileManager - DEBUG - Upload progress: 94.1%
+2025-04-27 07:55:12,204 - FileManager - DEBUG - Upload progress: 97.9%
+2025-04-27 07:55:12,204 - FileManager - DEBUG - Upload progress: 100.0%
+2025-04-27 07:55:12,220 - TrackerManager - INFO - Advertising 1 files for peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:55:12,221 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:14,267 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /advertise_file HTTP/1.1" 200 71
+2025-04-27 07:55:14,268 - TrackerManager - INFO - Successfully advertised files: ['22k5031.docx']
+2025-04-27 07:55:14,269 - FileManager - INFO - File '22k5031.docx' uploaded and advertised successfully
+2025-04-27 07:55:14,271 - FileManager - INFO - Listing available files
+2025-04-27 07:55:14,271 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:14,277 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:14,279 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:14,279 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:14,281 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:16,319 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:16,319 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:16,321 - FileManager - INFO - Listing available files
+2025-04-27 07:55:16,321 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:16,326 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:16,328 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:16,328 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:16,329 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:18,374 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:18,375 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:18,377 - FileManager - INFO - Listing available files
+2025-04-27 07:55:18,378 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:18,382 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:18,384 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:18,385 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:18,386 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:20,429 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:20,430 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:20,432 - FileManager - INFO - Downloading file: 22k5031.docx
+2025-04-27 07:55:20,432 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\22k5031.docx
+2025-04-27 07:55:20,433 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\22k5031.docx
+2025-04-27 07:55:20,434 - FileManager - DEBUG - File size: 217562 bytes
+2025-04-27 07:55:20,434 - FileManager - INFO - Listing available files
+2025-04-27 07:55:20,435 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:20,439 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:20,443 - FileManager - INFO - Listing available files
+2025-04-27 07:55:20,443 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:20,448 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:20,451 - FileManager - INFO - Listing available files
+2025-04-27 07:55:20,451 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:20,456 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:20,478 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:20,479 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:20,480 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:22,515 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:22,516 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:22,599 - FileManager - INFO - Listing available files
+2025-04-27 07:55:22,599 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:22,604 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:23,229 - FileManager - INFO - Listing available files
+2025-04-27 07:55:23,229 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:23,233 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:23,235 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:23,235 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:23,237 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:25,264 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:25,265 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:25,269 - FileManager - INFO - Listing available files
+2025-04-27 07:55:25,270 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:25,274 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:28,232 - FileManager - INFO - Listing available files
+2025-04-27 07:55:28,232 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:28,236 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:28,238 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:28,238 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:28,240 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:30,286 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:30,287 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:30,294 - FileManager - INFO - Listing available files
+2025-04-27 07:55:30,294 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:30,298 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:33,233 - FileManager - INFO - Listing available files
+2025-04-27 07:55:33,234 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:33,238 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:33,240 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:33,240 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:33,241 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:35,287 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:35,288 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:35,293 - FileManager - INFO - Listing available files
+2025-04-27 07:55:35,293 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:35,297 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:38,239 - FileManager - INFO - Listing available files
+2025-04-27 07:55:38,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:38,244 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:38,245 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:38,246 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:38,247 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:40,294 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:40,294 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:40,299 - FileManager - INFO - Listing available files
+2025-04-27 07:55:40,300 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:40,304 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:43,241 - FileManager - INFO - Listing available files
+2025-04-27 07:55:43,242 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:43,246 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:43,249 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:43,250 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:43,251 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:45,299 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:45,300 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:45,327 - FileManager - INFO - Listing available files
+2025-04-27 07:55:45,328 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:45,333 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:47,116 - FileManager - INFO - Downloading file: CN LAB.docx
+2025-04-27 07:55:47,116 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\CN LAB.docx
+2025-04-27 07:55:47,117 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\CN LAB.docx
+2025-04-27 07:55:47,118 - FileManager - DEBUG - File size: 311793 bytes
+2025-04-27 07:55:47,148 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:47,149 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:47,150 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:49,197 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:49,198 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:49,200 - FileManager - INFO - Listing available files
+2025-04-27 07:55:49,200 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:49,204 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:49,206 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:49,207 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:49,208 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:51,243 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:51,244 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:51,246 - FileManager - INFO - Listing available files
+2025-04-27 07:55:51,247 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:51,253 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:51,255 - FileManager - INFO - Listing available files
+2025-04-27 07:55:51,256 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:51,260 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:52,338 - FileManager - INFO - Downloading file: LAB#10.pkt
+2025-04-27 07:55:52,339 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:55:52,339 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\LAB#10.pkt
+2025-04-27 07:55:52,340 - FileManager - WARNING - File is currently in use: LAB#10.pkt
+2025-04-27 07:55:52,340 - FileManager - ERROR - Error downloading file: 423: File is currently in use
+2025-04-27 07:55:53,237 - FileManager - INFO - Listing available files
+2025-04-27 07:55:53,238 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:53,242 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:53,245 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:53,245 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:53,246 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:55:55,289 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:55:55,289 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:55:55,296 - FileManager - INFO - Listing available files
+2025-04-27 07:55:55,296 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:55,301 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:58,239 - FileManager - INFO - Listing available files
+2025-04-27 07:55:58,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:55:58,244 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:55:58,246 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:55:58,246 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:55:58,247 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:00,283 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:00,284 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:00,289 - FileManager - INFO - Listing available files
+2025-04-27 07:56:00,289 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:00,294 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:03,229 - FileManager - INFO - Listing available files
+2025-04-27 07:56:03,230 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:03,234 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:03,236 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:03,236 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:03,237 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:05,282 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:05,283 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:05,287 - FileManager - INFO - Listing available files
+2025-04-27 07:56:05,287 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:05,292 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:08,239 - FileManager - INFO - Listing available files
+2025-04-27 07:56:08,239 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:08,243 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:08,246 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:08,246 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:08,248 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:10,286 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:10,287 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:10,293 - FileManager - INFO - Listing available files
+2025-04-27 07:56:10,294 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:10,298 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:13,239 - FileManager - INFO - Listing available files
+2025-04-27 07:56:13,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:13,244 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:13,245 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:13,246 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:13,247 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:15,284 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:15,285 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:15,291 - FileManager - INFO - Listing available files
+2025-04-27 07:56:15,291 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:15,295 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:18,226 - FileManager - INFO - Listing available files
+2025-04-27 07:56:18,227 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:18,231 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:18,233 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:18,234 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:18,235 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:20,277 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:20,278 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:20,284 - FileManager - INFO - Listing available files
+2025-04-27 07:56:20,284 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:20,289 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:23,241 - FileManager - INFO - Listing available files
+2025-04-27 07:56:23,241 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:23,245 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:23,247 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:23,247 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:23,249 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:25,299 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:25,299 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:25,304 - FileManager - INFO - Listing available files
+2025-04-27 07:56:25,304 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:25,308 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:28,227 - FileManager - INFO - Listing available files
+2025-04-27 07:56:28,228 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:28,232 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:28,234 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:28,234 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:28,235 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:30,283 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:30,284 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:30,293 - FileManager - INFO - Listing available files
+2025-04-27 07:56:30,294 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:30,298 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:33,240 - FileManager - INFO - Listing available files
+2025-04-27 07:56:33,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:33,244 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:33,246 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:33,247 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:33,248 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:35,287 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:35,288 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:35,292 - FileManager - INFO - Listing available files
+2025-04-27 07:56:35,293 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:35,297 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:38,229 - FileManager - INFO - Listing available files
+2025-04-27 07:56:38,230 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:38,234 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:38,235 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:38,236 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:38,237 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:40,292 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:40,293 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:40,297 - FileManager - INFO - Listing available files
+2025-04-27 07:56:40,298 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:40,302 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:43,274 - FileManager - INFO - Listing available files
+2025-04-27 07:56:43,275 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:43,279 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:43,283 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:43,283 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:43,284 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:45,306 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:45,307 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:45,312 - FileManager - INFO - Listing available files
+2025-04-27 07:56:45,312 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:45,316 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:48,235 - FileManager - INFO - Listing available files
+2025-04-27 07:56:48,235 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:48,240 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:48,242 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:48,242 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:48,243 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:50,284 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:50,284 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:50,290 - FileManager - INFO - Listing available files
+2025-04-27 07:56:50,290 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:50,295 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:53,233 - FileManager - INFO - Listing available files
+2025-04-27 07:56:53,234 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:53,238 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:53,239 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:53,240 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:53,241 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:56:55,276 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:56:55,277 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:56:55,282 - FileManager - INFO - Listing available files
+2025-04-27 07:56:55,282 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:55,286 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:58,240 - FileManager - INFO - Listing available files
+2025-04-27 07:56:58,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:56:58,244 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:56:58,247 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:56:58,247 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:56:58,248 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:00,294 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:00,295 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:00,301 - FileManager - INFO - Listing available files
+2025-04-27 07:57:00,301 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:00,306 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:03,231 - FileManager - INFO - Listing available files
+2025-04-27 07:57:03,232 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:03,236 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:03,237 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:03,238 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:03,239 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:05,290 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:05,290 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:05,295 - FileManager - INFO - Listing available files
+2025-04-27 07:57:05,295 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:05,300 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:09,434 - FileManager - INFO - Listing available files
+2025-04-27 07:57:09,435 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:09,439 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:09,525 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:09,525 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:09,526 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:11,567 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:11,568 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:11,573 - FileManager - INFO - Listing available files
+2025-04-27 07:57:11,573 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:11,578 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:14,234 - FileManager - INFO - Listing available files
+2025-04-27 07:57:14,234 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:14,238 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:14,240 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:14,241 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:14,242 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:16,286 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:16,287 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:16,293 - FileManager - INFO - Listing available files
+2025-04-27 07:57:16,293 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:16,298 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:19,242 - FileManager - INFO - Listing available files
+2025-04-27 07:57:19,242 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:19,246 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:19,268 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:19,269 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:19,270 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:21,315 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:21,315 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:21,322 - FileManager - INFO - Listing available files
+2025-04-27 07:57:21,322 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:21,327 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:24,226 - FileManager - INFO - Listing available files
+2025-04-27 07:57:24,227 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:24,231 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:24,240 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:24,240 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:24,241 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:26,280 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:26,281 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:26,285 - FileManager - INFO - Listing available files
+2025-04-27 07:57:26,285 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:26,290 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:29,232 - FileManager - INFO - Listing available files
+2025-04-27 07:57:29,232 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:29,237 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:29,238 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:29,239 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:29,240 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:31,279 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:31,280 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:31,293 - FileManager - INFO - Listing available files
+2025-04-27 07:57:31,294 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:31,298 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:34,222 - FileManager - INFO - Listing available files
+2025-04-27 07:57:34,223 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:34,227 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:34,228 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:34,229 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:34,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:36,266 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:36,267 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:36,271 - FileManager - INFO - Listing available files
+2025-04-27 07:57:36,272 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:36,276 - FileManager - INFO - Found 3 shared files
+2025-04-27 07:57:39,231 - FileManager - INFO - Listing available files
+2025-04-27 07:57:39,232 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:39,232 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:39,234 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:39,234 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:39,235 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:41,285 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:41,285 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:41,293 - FileManager - INFO - Listing available files
+2025-04-27 07:57:41,294 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:41,294 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:43,229 - FileManager - INFO - Listing available files
+2025-04-27 07:57:43,230 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:43,230 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:43,232 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:43,232 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:43,234 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:45,280 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:45,281 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:45,285 - FileManager - INFO - Listing available files
+2025-04-27 07:57:45,286 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:45,286 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:48,248 - FileManager - INFO - Listing available files
+2025-04-27 07:57:48,248 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:48,249 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:48,250 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:48,251 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:48,252 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:50,299 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:50,300 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:50,304 - FileManager - INFO - Listing available files
+2025-04-27 07:57:50,304 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:50,305 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:53,225 - FileManager - INFO - Listing available files
+2025-04-27 07:57:53,226 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:53,226 - FileManager - INFO - Found 0 shared files
+2025-04-27 07:57:53,228 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:53,228 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:53,229 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:55,269 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2140
+2025-04-27 07:57:55,270 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:55,272 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-04-27 07:57:55,272 - python_multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-04-27 07:57:55,272 - python_multipart.multipart - DEBUG - Calling on_header_value with data[63:107]
+2025-04-27 07:57:55,273 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-04-27 07:57:55,273 - python_multipart.multipart - DEBUG - Calling on_header_field with data[109:121]
+2025-04-27 07:57:55,274 - python_multipart.multipart - DEBUG - Calling on_header_value with data[123:147]
+2025-04-27 07:57:55,274 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-04-27 07:57:55,274 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-04-27 07:57:55,275 - python_multipart.multipart - DEBUG - Calling on_part_data with data[151:83639]
+2025-04-27 07:57:55,275 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-04-27 07:57:55,275 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-27 07:57:55,276 - FileManager - INFO - Uploading file: LAB#5.pkt
+2025-04-27 07:57:55,288 - FileManager - DEBUG - Upload progress: 9.8%
+2025-04-27 07:57:55,289 - FileManager - DEBUG - Upload progress: 19.6%
+2025-04-27 07:57:55,289 - FileManager - DEBUG - Upload progress: 29.4%
+2025-04-27 07:57:55,289 - FileManager - DEBUG - Upload progress: 39.2%
+2025-04-27 07:57:55,290 - FileManager - DEBUG - Upload progress: 49.1%
+2025-04-27 07:57:55,290 - FileManager - DEBUG - Upload progress: 58.9%
+2025-04-27 07:57:55,290 - FileManager - DEBUG - Upload progress: 68.7%
+2025-04-27 07:57:55,291 - FileManager - DEBUG - Upload progress: 78.5%
+2025-04-27 07:57:55,291 - FileManager - DEBUG - Upload progress: 88.3%
+2025-04-27 07:57:55,291 - FileManager - DEBUG - Upload progress: 98.1%
+2025-04-27 07:57:55,292 - FileManager - DEBUG - Upload progress: 100.0%
+2025-04-27 07:57:55,303 - TrackerManager - INFO - Advertising 1 files for peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:57:55,304 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:57,352 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /advertise_file HTTP/1.1" 200 68
+2025-04-27 07:57:57,353 - TrackerManager - INFO - Successfully advertised files: ['LAB#5.pkt']
+2025-04-27 07:57:57,353 - FileManager - INFO - File 'LAB#5.pkt' uploaded and advertised successfully
+2025-04-27 07:57:57,355 - FileManager - INFO - Listing available files
+2025-04-27 07:57:57,356 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:57,357 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:57:57,367 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:57,367 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:57,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:57:59,407 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2152
+2025-04-27 07:57:59,408 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:57:59,410 - FileManager - INFO - Listing available files
+2025-04-27 07:57:59,410 - FileManager - INFO - Listing shared files
+2025-04-27 07:57:59,411 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:57:59,414 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:57:59,414 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:57:59,416 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:01,450 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2152
+2025-04-27 07:58:01,451 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:01,453 - FileManager - INFO - Listing available files
+2025-04-27 07:58:01,454 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:01,455 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:01,457 - FileManager - INFO - Downloading file: LAB#5.pkt
+2025-04-27 07:58:01,458 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\LAB#5.pkt
+2025-04-27 07:58:01,458 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\LAB#5.pkt
+2025-04-27 07:58:01,459 - FileManager - DEBUG - File size: 83488 bytes
+2025-04-27 07:58:01,461 - FileManager - INFO - Listing available files
+2025-04-27 07:58:01,461 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:01,463 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:01,468 - FileManager - INFO - Listing available files
+2025-04-27 07:58:01,468 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:01,470 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:01,484 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:01,485 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:01,486 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:03,520 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2152
+2025-04-27 07:58:03,521 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:03,522 - FileManager - INFO - Listing available files
+2025-04-27 07:58:03,523 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:03,524 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:03,526 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:03,527 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:03,528 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:05,564 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2152
+2025-04-27 07:58:05,564 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:05,566 - FileManager - INFO - Listing available files
+2025-04-27 07:58:05,566 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:05,568 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:05,570 - FileManager - INFO - Listing available files
+2025-04-27 07:58:05,571 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:05,572 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:07,531 - PeerClient - INFO - Removing file 22k5031.docx from peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:58:07,532 - TrackerManager - INFO - Removing file 22k5031.docx from peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:58:07,533 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:09,577 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /remove_file?peer_id=e64e480f-1c03-427e-9faa-b577344d3a58&filename=22k5031.docx HTTP/1.1" 200 52
+2025-04-27 07:58:09,578 - TrackerManager - INFO - Successfully removed file 22k5031.docx
+2025-04-27 07:58:09,580 - FileManager - INFO - Listing available files
+2025-04-27 07:58:09,580 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:09,582 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:09,583 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:09,583 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:09,585 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:11,628 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2137
+2025-04-27 07:58:11,628 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:11,631 - FileManager - INFO - Listing available files
+2025-04-27 07:58:11,631 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:11,633 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:11,635 - PeerClient - INFO - Removing file LAB#5.pkt from peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:58:11,635 - TrackerManager - INFO - Removing file LAB#5.pkt from peer e64e480f-1c03-427e-9faa-b577344d3a58
+2025-04-27 07:58:11,636 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:13,683 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /remove_file?peer_id=e64e480f-1c03-427e-9faa-b577344d3a58&filename=LAB%235.pkt HTTP/1.1" 200 49
+2025-04-27 07:58:13,684 - TrackerManager - INFO - Successfully removed file LAB#5.pkt
+2025-04-27 07:58:13,686 - FileManager - INFO - Listing available files
+2025-04-27 07:58:13,686 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:13,688 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:13,689 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:13,690 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:13,691 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:15,739 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:15,740 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:15,742 - FileManager - INFO - Listing available files
+2025-04-27 07:58:15,742 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:15,743 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:15,745 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:15,746 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:15,747 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:17,794 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:17,795 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:17,797 - FileManager - INFO - Listing available files
+2025-04-27 07:58:17,797 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:17,799 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:17,802 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:17,802 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:17,804 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:19,843 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:19,843 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:19,845 - FileManager - INFO - Listing available files
+2025-04-27 07:58:19,846 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:19,847 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:19,849 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:19,849 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:19,851 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:21,900 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:21,901 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:21,903 - FileManager - INFO - Downloading file: LAB#5.pkt
+2025-04-27 07:58:21,904 - FileManager - DEBUG - Looking for file at path: C:\Users\talhu\.shardnet\shared_files\LAB#5.pkt
+2025-04-27 07:58:21,904 - FileManager - DEBUG - Checking if file is locked: C:\Users\talhu\.shardnet\shared_files\LAB#5.pkt
+2025-04-27 07:58:21,905 - FileManager - DEBUG - File size: 83488 bytes
+2025-04-27 07:58:21,905 - FileManager - INFO - Listing available files
+2025-04-27 07:58:21,906 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:21,907 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:21,919 - FileManager - INFO - Listing available files
+2025-04-27 07:58:21,920 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:21,921 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:21,934 - FileManager - INFO - Listing available files
+2025-04-27 07:58:21,934 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:21,935 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:21,937 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:21,938 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:21,939 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:24,012 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:24,012 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:24,014 - FileManager - INFO - Listing available files
+2025-04-27 07:58:24,015 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:24,016 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:24,018 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:24,018 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:24,020 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:26,066 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:26,067 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:26,068 - FileManager - INFO - Listing available files
+2025-04-27 07:58:26,069 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:26,070 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:26,073 - FileManager - INFO - Listing available files
+2025-04-27 07:58:26,073 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:26,075 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:26,077 - FileManager - INFO - Listing available files
+2025-04-27 07:58:26,078 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:26,079 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:28,239 - FileManager - INFO - Listing available files
+2025-04-27 07:58:28,240 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:28,241 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:28,243 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:28,243 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:28,244 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:30,279 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:30,280 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:30,285 - FileManager - INFO - Listing available files
+2025-04-27 07:58:30,286 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:30,287 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:33,226 - FileManager - INFO - Listing available files
+2025-04-27 07:58:33,227 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:33,229 - FileManager - INFO - Found 1 shared files
+2025-04-27 07:58:33,233 - PeerClient - INFO - Listing all peers in the network
+2025-04-27 07:58:33,234 - TrackerManager - INFO - Retrieving list of all peers
+2025-04-27 07:58:33,235 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2025-04-27 07:58:35,267 - urllib3.connectionpool - DEBUG - http://localhost:8000 "GET /list_peers HTTP/1.1" 200 2126
+2025-04-27 07:58:35,268 - TrackerManager - INFO - Successfully retrieved 15 peers
+2025-04-27 07:58:35,276 - FileManager - INFO - Listing available files
+2025-04-27 07:58:35,277 - FileManager - INFO - Listing shared files
+2025-04-27 07:58:35,278 - FileManager - INFO - Found 1 shared files

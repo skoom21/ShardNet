@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShardNet - P2P File Sharing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .connected {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .disconnected {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .file-list {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .file-item {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-info {
+            flex-grow: 1;
+        }
+        .file-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 0.3s;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .error-message {
+            color: #721c24;
+            background-color: #f8d7da;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            display: none;
+        }
+        .success-message {
+            color: #155724;
+            background-color: #d4edda;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ShardNet P2P File Sharing</h1>
+        
+        <div id="status" class="status disconnected">
+            Status: Disconnected from P2P Network
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Network Stats</h3>
+                <p>Connected Peers: <span id="peerCount">0</span></p>
+                <p>Total Files: <span id="totalFiles">0</span></p>
+            </div>
+            <div class="stat-card">
+                <h3>Your Stats</h3>
+                <p>Shared Files: <span id="sharedFiles">0</span></p>
+                <p>Downloaded Files: <span id="downloadedFiles">0</span></p>
+            </div>
+        </div>
+
+        <div>
+            <button id="connectBtn" class="button">Connect to Network</button>
+            <button id="disconnectBtn" class="button" disabled>Disconnect</button>
+        </div>
+
+        <div id="errorMessage" class="error-message"></div>
+        <div id="successMessage" class="success-message"></div>
+
+        <div>
+            <h2>Share Files</h2>
+            <input type="file" id="fileInput" multiple>
+            <button id="shareBtn" class="button" disabled>Share Selected Files</button>
+            <div id="uploadProgress" class="progress-bar" style="display: none;">
+                <div id="uploadProgressBar" class="progress"></div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Search Files</h2>
+            <input type="text" id="searchInput" class="search-box" placeholder="Search for files...">
+            <button id="searchBtn" class="button">Search</button>
+        </div>
+
+        <div class="file-list">
+            <h2>Available Files in Network</h2>
+            <div id="fileList">
+                <!-- Files will be listed here -->
+            </div>
+        </div>
+
+        <div>
+            <h2>Your Shared Files</h2>
+            <div id="sharedFileList" class="file-list">
+                <!-- Shared files will be listed here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://127.0.0.1:3600';
+        const connectBtn = document.getElementById('connectBtn');
+        const disconnectBtn = document.getElementById('disconnectBtn');
+        const shareBtn = document.getElementById('shareBtn');
+        const searchBtn = document.getElementById('searchBtn');
+        const statusDiv = document.getElementById('status');
+        const fileInput = document.getElementById('fileInput');
+        const searchInput = document.getElementById('searchInput');
+        const fileList = document.getElementById('fileList');
+        const sharedFileList = document.getElementById('sharedFileList');
+        const errorMessage = document.getElementById('errorMessage');
+        const successMessage = document.getElementById('successMessage');
+        const uploadProgress = document.getElementById('uploadProgress');
+        const uploadProgressBar = document.getElementById('uploadProgressBar');
+
+        let peerId = null;
+        let sharedFiles = new Set();
+        let downloadedFiles = new Set();
+
+        // Show/hide messages
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'block';
+            setTimeout(() => {
+                errorMessage.style.display = 'none';
+            }, 5000);
+        }
+
+        function showSuccess(message) {
+            successMessage.textContent = message;
+            successMessage.style.display = 'block';
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+        }
+
+        function showLoading(message) {
+            successMessage.textContent = message;
+            successMessage.style.display = 'block';
+        }
+
+        // Update stats
+        async function updateStats() {
+            try {
+                // Get peer count
+                const peersResponse = await fetch(`${API_BASE_URL}/api/list_peers`);
+                if (peersResponse.ok) {
+                    const peersData = await peersResponse.json();
+                    document.getElementById('peerCount').textContent = peersData.peers.length;
+                }
+
+                // Get total files
+                const filesResponse = await fetch(`${API_BASE_URL}/api/list_files`);
+                if (filesResponse.ok) {
+                    const filesData = await filesResponse.json();
+                    document.getElementById('totalFiles').textContent = filesData.files.length;
+                }
+
+                // Update local stats
+                document.getElementById('sharedFiles').textContent = sharedFiles.size;
+                document.getElementById('downloadedFiles').textContent = downloadedFiles.size;
+            } catch (error) {
+                console.error('Error updating stats:', error);
+            }
+        }
+
+        // Connect to the network
+        connectBtn.addEventListener('click', async () => {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/register_peer`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ip: '127.0.0.1',
+                        port: 3600
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to connect to network');
+                }
+
+                const data = await response.json();
+                peerId = data.peer_id;
+
+                statusDiv.className = 'status connected';
+                statusDiv.textContent = `Status: Connected to P2P Network (Peer ID: ${peerId})`;
+                connectBtn.disabled = true;
+                disconnectBtn.disabled = false;
+                shareBtn.disabled = false;
+
+                showSuccess('Successfully connected to the network');
+                startFilePolling();
+                startStatsPolling();
+            } catch (error) {
+                console.error('Connection error:', error);
+                showError('Failed to connect to network. Please try again.');
+            }
+        });
+
+        // Disconnect from the network
+        disconnectBtn.addEventListener('click', async () => {
+            try {
+                if (peerId) {
+                    await fetch(`${API_BASE_URL}/api/update_status`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            peer_id: peerId,
+                            status: 'offline'
+                        })
+                    });
+                }
+
+                statusDiv.className = 'status disconnected';
+                statusDiv.textContent = 'Status: Disconnected from P2P Network';
+                connectBtn.disabled = false;
+                disconnectBtn.disabled = true;
+                shareBtn.disabled = true;
+                peerId = null;
+
+                stopFilePolling();
+                stopStatsPolling();
+                showSuccess('Successfully disconnected from the network');
+            } catch (error) {
+                console.error('Disconnection error:', error);
+                showError('Error during disconnection. Please try again.');
+            }
+        });
+
+        // Share files
+        shareBtn.addEventListener('click', async () => {
+            const files = fileInput.files;
+            if (files.length === 0) {
+                showError('Please select at least one file to share');
+                return;
+            }
+
+            uploadProgress.style.display = 'block';
+            let uploadedCount = 0;
+
+            try {
+                for (const file of files) {
+                    const formData = new FormData();
+                    formData.append('file', file);
+
+                    const response = await fetch(`${API_BASE_URL}/api/upload_file`, {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`Failed to upload ${file.name}`);
+                    }
+
+                    const result = await response.json();
+                    sharedFiles.add(file.name);
+                    uploadedCount++;
+                    uploadProgressBar.style.width = `${(uploadedCount / files.length) * 100}%`;
+                }
+
+                showSuccess(`Successfully shared ${files.length} file(s)`);
+                fileInput.value = '';
+                updateFileList();
+                updateStats();
+            } catch (error) {
+                console.error('File sharing error:', error);
+                showError('Error sharing files. Please try again.');
+            } finally {
+                uploadProgress.style.display = 'none';
+                uploadProgressBar.style.width = '0%';
+            }
+        });
+
+        // Search files
+        searchBtn.addEventListener('click', async () => {
+            const searchTerm = searchInput.value.trim();
+            if (!searchTerm) {
+                showError('Please enter a search term');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/search_file`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        filename: searchTerm
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Search failed');
+                }
+
+                const data = await response.json();
+                displaySearchResults(data.peers);
+            } catch (error) {
+                console.error('Search error:', error);
+                showError('Error searching for files. Please try again.');
+            }
+        });
+
+        function displaySearchResults(peers) {
+            fileList.innerHTML = peers.map(peer => `
+                <div class="file-item">
+                    <div class="file-info">
+                        <strong>${peer.filename}</strong>
+                        <p>Available on peer: ${peer.peer_id}</p>
+                    </div>
+                    <div class="file-actions">
+                        <button class="button" onclick="downloadFile('${peer.filename}', '${peer.peer_id}')">Download</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        let pollingInterval;
+        let statsInterval;
+
+        function startFilePolling() {
+            updateFileList();
+            pollingInterval = setInterval(updateFileList, 5000);
+        }
+
+        function stopFilePolling() {
+            if (pollingInterval) {
+                clearInterval(pollingInterval);
+            }
+        }
+
+        function startStatsPolling() {
+            updateStats();
+            statsInterval = setInterval(updateStats, 5000);
+        }
+
+        function stopStatsPolling() {
+            if (statsInterval) {
+                clearInterval(statsInterval);
+            }
+        }
+
+        async function updateFileList() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/list_files`);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch file list');
+                }
+
+                const data = await response.json();
+                const files = data.files || [];
+
+                // Update available files
+                fileList.innerHTML = files.map(file => `
+                    <div class="file-item">
+                        <div class="file-info">
+                            <strong>${file.name}</strong>
+                            <p>Size: ${formatFileSize(file.size)}</p>
+                            <p>Modified: ${new Date(file.modified).toLocaleString()}</p>
+                        </div>
+                        <div class="file-actions">
+                            <button class="button" onclick="downloadFile('${file.name}')">Download</button>
+                        </div>
+                    </div>
+                `).join('');
+
+                // Update shared files
+                sharedFileList.innerHTML = Array.from(sharedFiles).map(file => `
+                    <div class="file-item">
+                        <div class="file-info">
+                            <strong>${file}</strong>
+                        </div>
+                        <div class="file-actions">
+                            <button class="button" onclick="removeFile('${file}')">Remove</button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error updating file list:', error);
+            }
+        }
+
+        // Helper function to format file size
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        async function downloadFile(filename) {
+            try {
+                showLoading(`Downloading ${filename}...`);
+                
+                const response = await fetch(`${API_BASE_URL}/api/download_file/${encodeURIComponent(filename)}`);
+                if (!response.ok) {
+                    throw new Error(`Failed to download file: ${response.status} ${response.statusText}`);
+                }
+
+                // Get the filename from Content-Disposition header
+                const contentDisposition = response.headers.get('Content-Disposition');
+                const downloadFilename = contentDisposition
+                    ? contentDisposition.split('filename=')[1].replace(/"/g, '')
+                    : filename;
+
+                // Get the total size from Content-Length header
+                const contentLength = response.headers.get('Content-Length');
+                const totalSize = contentLength ? parseInt(contentLength) : 0;
+                let downloadedSize = 0;
+
+                // Create a reader for the response body
+                const reader = response.body.getReader();
+                const chunks = [];
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    chunks.push(value);
+                    downloadedSize += value.length;
+                    
+                    // Update progress if we know the total size
+                    if (totalSize > 0) {
+                        const progress = (downloadedSize / totalSize) * 100;
+                        showLoading(`Downloading ${filename}... ${progress.toFixed(1)}%`);
+                    }
+                }
+
+                // Combine chunks into a single blob
+                const blob = new Blob(chunks);
+                const url = window.URL.createObjectURL(blob);
+                
+                // Create and trigger download
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = downloadFilename;
+                document.body.appendChild(a);
+                a.click();
+                
+                // Cleanup
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+
+                downloadedFiles.add(filename);
+                updateStats();
+                showSuccess(`File ${filename} downloaded successfully!`);
+            } catch (error) {
+                console.error('Download error:', error);
+                showError(`Error downloading file: ${error.message}`);
+            }
+        }
+
+        async function removeFile(filename) {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/remove_file`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        peer_id: peerId,
+                        filename: filename
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to remove file');
+                }
+
+                sharedFiles.delete(filename);
+                updateFileList();
+                updateStats();
+                showSuccess(`File ${filename} removed successfully`);
+            } catch (error) {
+                console.error('Remove error:', error);
+                showError('Error removing file. Please try again.');
+            }
+        }
+
+        // Initialize
+        updateStats();
+    </script>
+</body>
+</html>
