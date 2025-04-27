@@ -122,9 +122,13 @@ pip install -r requirements.txt
 ```
 
 3. **Run the local client**
-
+-Backend
 ```bash
-python peer/main.py
+uvicorn app.main:app --reload --port 8000 
+```
+-Client
+```bash
+uvicorn peer.main:app --reload --port 3600
 ```
 
 The client will start, register with the tracker, and expose a local API for the frontend to communicate with.
